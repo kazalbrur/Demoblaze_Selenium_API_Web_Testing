@@ -1,0 +1,87 @@
+{
+    "name": "test_SignUp_with_incorrectly_email_and_password",
+    "status": "passed",
+    "description": "SignUp when email & password incorrectly",
+    "steps": [
+        {
+            "name": "test status code need to be 200",
+            "status": "passed",
+            "parameters": [
+                {
+                    "name": "URL",
+                    "value": "'https://api.demoblaze.com/check'"
+                },
+                {
+                    "name": "DATA",
+                    "value": "{'Username:': 'Dawwwww', 'password:': '2023'}"
+                },
+                {
+                    "name": "Status_Code",
+                    "value": "200"
+                }
+            ],
+            "start": 1727946374379,
+            "stop": 1727946374840
+        },
+        {
+            "name": "the time elapse for the test takes < given seconds",
+            "status": "passed",
+            "parameters": [
+                {
+                    "name": "URL",
+                    "value": "'https://api.demoblaze.com/check'"
+                },
+                {
+                    "name": "DATA",
+                    "value": "{'Username:': 'Dawwwww', 'password:': '2023'}"
+                },
+                {
+                    "name": "Second",
+                    "value": "10"
+                }
+            ],
+            "start": 1727946374840,
+            "stop": 1727946375295
+        }
+    ],
+    "start": 1727946374379,
+    "stop": 1727946375295,
+    "uuid": "d3fe36d9-7a40-40fb-8eed-849d50bcbac4",
+    "historyId": "476260f58caaecd25fa27c2f2579afc6",
+    "testCaseId": "476260f58caaecd25fa27c2f2579afc6",
+    "fullName": "Tests.test_SignUp.Test_Login#test_SignUp_with_incorrectly_email_and_password",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_SignUp"
+        },
+        {
+            "name": "subSuite",
+            "value": "Test_Login"
+        },
+        {
+            "name": "host",
+            "value": "nsl42"
+        },
+        {
+            "name": "thread",
+            "value": "96309-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "Tests.test_SignUp"
+        }
+    ]
+}
