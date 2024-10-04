@@ -1,9 +1,4 @@
-# ***............................. Demoblaze_Python_Final_Project .......................***
-    
-## 👨‍💻Author 
-- VERSION: 1.0.0
-- Dawit Samson Belay
-- [Link To GitHub/Dawit Samson](https://github.com/DawitSamson)
+# ***Demoblaze_Python_Final_Project***
 
 
 ## **⚡ OVERVIEW **
