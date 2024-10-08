@@ -5,7 +5,6 @@ from Web.Utils.utils import Utils
 from Web.Base.base_test import Base_Page
 from Web.Pages.signUp_page import SignUp_Page
 from Web.Pages.logOut_page import LogOut_page
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 class Test_Login(Base_Page):
@@ -169,7 +168,7 @@ class Test_Login(Base_Page):
         login = Login_Page(driver)
         login.open_Main_page()
         login.click_Login_option()
-        login.enter_UserName("01234567w")
+        login.enter_UserName("012345w67")
         login.enter_Password("01234567")
         login.click_Login_Button()
         login.Assert_alert_User_Not_exist()
@@ -189,19 +188,13 @@ class Test_Login(Base_Page):
         signUp.click_SignUp_Button()
         signUp.click_OK_alert_button()
         Utils(driver).assertion(signUp.title, self.driver.title)
-        
         login = Login_Page(driver)
         login.open_Main_page()
         login.click_Login_option()
         login.enter_UserName("Dadadaa")
         login.enter_Password("12345")
-        
-        # Use ActionChains to click the login button
-        login_button = login.driver.find_element(By.XPATH, login.login_button)
-        ActionChains(driver).move_to_element(login_button).click().perform()
-        
+        login.click_Login_Button()
         Utils(driver).assertion(login.title, self.driver.title)
-        
         logout = LogOut_page(driver)
         logout.click_LogOut_option()
         Utils(driver).assertion(logout.title, self.driver.title)
