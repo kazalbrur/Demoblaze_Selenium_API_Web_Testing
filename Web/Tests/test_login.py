@@ -168,7 +168,7 @@ class Test_Login(Base_Page):
         login = Login_Page(driver)
         login.open_Main_page()
         login.click_Login_option()
-        login.enter_UserName("012345w67")
+        login.enter_UserName("01234567")
         login.enter_Password("01234567")
         login.click_Login_Button()
         login.Assert_alert_User_Not_exist()
