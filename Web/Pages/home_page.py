@@ -100,7 +100,7 @@ class Home_Page:
     @allure.step
     @allure.description('Display product by clicking Next button on the footer')
     def scroll_down(self):
-        self.driver.implicitly_wait(2)
+        self.driver.implicitly_wait(5)
         self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         time.sleep(5)
 

@@ -162,6 +162,7 @@ class Test_home(Base_Page):
     def test_E2E_Valid_All_Products_Add_to_Cart_from_All_categories(self):
         driver = self.driver
         E2E = Home_Page(driver)
+        
         E2E.open_Main_page()
         E2E.click_Home_icon()
         E2E.click_phone_category_icon()

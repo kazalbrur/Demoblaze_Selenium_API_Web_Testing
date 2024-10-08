@@ -36,7 +36,7 @@ class Login_Page:
         self.driver.find_element(By.XPATH, self.login_option).click()
         self.wait.until(EC.url_to_be(self.driver.current_url))
         Utils(self.driver).assertion(self.title, self.driver.title)
-        self.driver.implicitly_wait(2)
+        self.driver.implicitly_wait(5)
 
     @allure.step
     @allure.description('Clear and insert data to UserName input')

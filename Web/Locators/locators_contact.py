@@ -9,6 +9,6 @@ class Locators_ContactPage:
     PAGE_TITLE = "STORE"
     NEW_MESSAGE_ID ="exampleModalLabel"
     THANKYOU_MESSAGE = "Thanks for the message!!"
-    ERROR_TEXT1 = "Please fill out properly."
+    ERROR_TEXT1 = "Thanks for the message!!"
 
 

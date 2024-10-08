@@ -1,8 +1,0 @@
-Initiating Chrome driver
------------------------------------------
-Tests is started
-
-Alert message =  Please fill out Username and Password. 
-
------------------------------------------
-Tests is finished

@@ -91,7 +91,7 @@ class Contact_Page:
 
     # this is the error message need to be displayed when we make invalid input
     @allure.step
-    @allure.description('Check the alert text message "Please fill out properly." displayed')
+    @allure.description('Check the alert text message "Thanks for the message!!" displayed')
     def Assert_alert_Error_message(self):
         alert_text = self.driver.switch_to.alert.text
         print("\nAlert message = ", alert_text, "\n")

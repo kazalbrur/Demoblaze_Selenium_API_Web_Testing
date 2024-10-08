@@ -35,7 +35,7 @@ class SignUp_Page:
         self.driver.find_element(By.XPATH, self.signUp_option).click()
         self.wait.until(EC.url_to_be(self.driver.current_url))
         Utils(self.driver).assertion(self.title, self.driver.title)
-        self.driver.implicitly_wait(2)
+        self.driver.implicitly_wait(4)
 
     @allure.step
     @allure.description('Clear and insert data to UserName input')

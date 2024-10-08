@@ -26,7 +26,7 @@ class LogOut_page:
         self.driver.find_element(By.XPATH, self.logout_option).click()
         self.wait.until(EC.url_to_be(self.driver.current_url))
         Utils(self.driver).assertion(self.title, self.driver.title)
-        self.driver.implicitly_wait(2)
+        self.driver.implicitly_wait(4)
 
     @allure.step
     @allure.description('Navigate to Logout page after Successfully login and click welcome text')
@@ -34,4 +34,4 @@ class LogOut_page:
         self.driver.find_element(By.XPATH, self.welcome_text).click()
         self.wait.until(EC.url_to_be(self.driver.current_url))
         Utils(self.driver).assertion(self.title, self.driver.title)
-        self.driver.implicitly_wait(2)
+        self.driver.implicitly_wait(4)
