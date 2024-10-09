@@ -23,9 +23,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest allure-pytest webdriver-manager
+        pip install flake8 pytest allure-pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
+    - name: Remove old webdriver-manager directory and reinstall
+      run: |
+        rm -rf /home/user/.wdm
+        pip uninstall -y webdriver-manager
+        pip install webdriver-manager
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
