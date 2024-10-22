@@ -67,39 +67,39 @@ The project is organized into two main directories:
 
 **Sign Up Page** 
 
-![SignUp](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/SignUp.png)
+![SignUp](screenshot/SignUp.png)
 
 
 
 **Log In Page ** 
 
-![Login](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Login.png)
+![Login](screenshot/Login.png)
 
 **Contact Page** 
 
-![Contact](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Contact.png)
+![Contact](screenshot/Contact.png)
 
 
 
 **Product Page**
 
-![Product_page](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Product_page.png)
+![Product_page](screenshot/Product_page.png)
 
 
 
 **Cart Page :** 
 
-![Cart_page](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Cart_page.png)
+![Cart_page](screenshot/Cart_page.png)
 
 
 
 Place Order page  : 
 
-![Place_order_form](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Place_order_form.png)
+![Place_order_form](screenshot/Place_order_form.png)
 
 Confirmation page  : 
 
-![Conformation_code](/home/nsl42/Desktop/Automation/Done/Demoblaze_Selenium_API_Web_Testing/screenshot/Conformation_code.png)
+![Conformation_code](screenshot/Conformation_code.png)
 
 
 
